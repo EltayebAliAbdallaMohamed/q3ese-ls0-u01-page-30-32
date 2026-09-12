@@ -1,0 +1,94 @@
+
+
+[ 
+   {
+    "text": "Use adjectives and adverbs followed by adjectives.",
+    "arabic": "",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "Use adjectives and adverbs followed by adjectives.",
+    "arabicScript": ""
+  },
+  {
+    "text": "Adjectives are words that describe nouns. Nouns can be people, places, things, or ideas.",
+    "arabic": "",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "Adjectives are words that describe nouns. Nouns can be people, places, things, or ideas.",
+    "arabicScript": ""
+  },
+  {
+    "text": "Which words are nouns. Which are adjectives?",
+    "arabic": "سهل. كبير. سؤال. سيارة. معلم. كرسي. رخيص",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "easy. big. question. car. teacher. chair. cheap. ",
+    "arabicScript": "سهل. كبير. سؤال. سيارة. معلم. كرسي. رخيص."
+  }, 
+   
+    {
+    "text": "Statements with present forms of be are followed by adjectives.",
+    "arabic": "المدرسة المثالية كبيرة",
+    "image": "",
+    "audio": "audio/a perfect school is large.mp3",
+    "audioScript": "Statements with present forms of be are followed by adjectives.",
+    "arabicScript": "المدرسة المثالية كبيرة"
+  }, 
+  {
+    "text": "Can I say: Small towns is really safe?",
+    "arabic": "المدن الصغيرة آمنة حقًا",
+    "image": "",
+    "audio": "audio/Small towns are really safe.mp3",
+    "audioScript": "Small towns are really safe.",
+    "arabicScript": "المدن الصغيرة آمنة حقًا"
+  }, 
+   
+    {
+    "text": "Mary doesn't like her school. The classrooms are always clean.",
+    "arabic": "ماري لا تعجبها مدرستها. الصفوف دائمًا نظيفة",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "Mary doesn't like her school. The classrooms are always clean.",
+    "arabicScript": "ماري لا تعجبها مدرستها. الصفوف دائمًا نظيفة"
+  }, 
+  {
+    "text": "I like my history class. It is very boring.",
+    "arabic": "أنا يعجبني درس التاريخ. إنه ممل جدًا",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "I like my history class. It is very boring.",
+    "arabicScript": "أنا يعجبني درس التاريخ. إنه ممل جدًا"
+  }, 
+  {
+    "text": "One strength of my school is the library. It is very small.",
+    "arabic": "أحد نقاط القوة في مدرستي هو المكتبة. إنها صغيرة جدًا",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "One strength of my school is the library. It is very small.",
+    "arabicScript": "أحد نقاط القوة في مدرستي هو المكتبة. إنها صغيرة جدًا"
+  }, 
+  {
+    "text": "The school is in a safe part of town. Don't go out late at night.",
+    "arabic": "المدرسة تقع في منطقة آمنة من المدينة. لا تخرج في وقت متأخر من الليل",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "The school is in a safe part of town. Don't go out late at night.",
+    "arabicScript": "المدرسة تقع في منطقة آمنة من المدينة. لا تخرج في وقت متأخر من الليل"
+  }, 
+  {
+    "text": "My school costs a lot of money. It is very cheap.",
+    "arabic": "مدرستي تكلف الكثير من المال. إنها رخيصة جدًا",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "My school costs a lot of money. It is very cheap.",
+    "arabicScript": "مدرستي تكلف الكثير من المال. إنها رخيصة جدًا"
+  }, 
+  {
+    "text": "My math class is really hard.  I know all the answers.",
+    "arabic": "صف الرياضيات الخاص بي صعب جدًا. أنا أعرف كل الإجابات",
+    "image": "",
+    "audio": "audio/.mp3",
+    "audioScript": "My math class is really hard.  I know all the answers.",
+    "arabicScript": "صف الرياضيات الخاص بي صعب جدًا. أنا أعرف كل الإجابات"
+  }
+]

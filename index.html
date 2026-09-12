@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio/TTS Player</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2 class="title">Q Skills Intro LS - Pages 30 - 32</h2>
+
+    <!-- Dropdown to select JSON file -->
+    <label for="jsonSelector">Choose Objectives / Activity:</label>
+    <select id="jsonSelector" class="json-selector">
+         <option value="objectives.json" >Lesson Objectives</option>
+       
+        <option value="data.json" selected> Antyonyms</option>     
+        
+        
+    </select>
+
+    <!-- Item counter -->
+    <p id="itemCounter" class="counter"></p>
+
+    <!-- Image -->
+    <img id="itemImage" class="item-image" alt="">
+
+    <!-- English Text -->
+    <p id="displayText" class="display-text" aria-live="polite">Loading...</p>
+
+    <!-- Arabic Translation -->
+    <details class="arabic-box" aria-label="Arabic translation section">
+        <summary aria-expanded="false">Show Arabic</summary>
+
+        <p id="arabicText" class="arabic-text" aria-live="polite"></p>
+
+        <button id="arabicPlayBtn"
+                class="btn arabic-btn"
+                aria-label="Play Arabic text as speech">
+            Play Arabic
+        </button>
+    </details>
+
+    <!-- Auto Play Checkbox -->
+    <label class="auto-play-label">
+        <input type="checkbox" id="autoPlayCheck" aria-label="Enable auto play">
+        Auto Play Audio / TTS
+    </label>
+
+    <!-- Audio player -->
+    <audio id="audioPlayer" controls class="audio-player"></audio>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button id="prevBtn" class="btn">Previous</button>
+        <button id="playBtn" class="btn" onclick="playAudio()">Play</button>
+        <button id="nextBtn" class="btn">Next</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

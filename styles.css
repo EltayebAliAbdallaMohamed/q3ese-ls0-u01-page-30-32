@@ -1,0 +1,149 @@
+/* Mobile-first layout */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Item counter */
+.item-counter {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Image */
+.item-image {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+}
+
+/* English text */
+.display-text {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Arabic section */
+.arabic-box {
+    margin-top: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.arabic-box summary {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.arabic-text {
+    font-size: 1.4rem;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Arabic Play button */
+.arabic-btn {
+    display: block;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    padding: 16px;
+    font-size: 1.3rem;
+    background: #008060;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Auto Play checkbox */
+.auto-play-label {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.auto-play-label input {
+    transform: scale(1.4);
+    margin-right: 10px;
+}
+
+/* Audio player */
+.audio-player {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Navigation buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 16px;
+    font-size: 1.3rem;
+    background: #005b96;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: #004b78;
+}
+
+/* Desktop/laptop enhancements */
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .arabic-btn {
+        width: 60%;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 14px 20px;
+        font-size: 1.2rem;
+    }
+
+    .buttons {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: more) {
+    body {
+        background: white;
+    }
+    .btn {
+        background: black;
+        color: yellow;
+    }
+}
